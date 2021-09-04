@@ -204,12 +204,35 @@ Felis bibendum ut tristique et egestas quis ipsum. Duis ut diam quam nulla portt
     <section id = "contact">
         <div class="container">
             <form>
+                <fieldset>
                 <div class = "form-group">
                     <label for = "uname" class="control-label col-md-4">Username</label>
                     <div class = "col-md-8">
                     <input name = "uname" id = "uname" placeholder="Please enter your name" class="form-control" type="text">
                     </div>
                 </div>
+
+                <div class = "form-group">
+                    <label for = "uemail" class="control-label col-md-4">Email</label>
+                    <div class = "col-md-8">
+                    <input name = "uemail" id = "uname" placeholder="Please enter your email address" class="form-control" type="email">
+                    </div>
+                </div>
+
+                <div class = "form-group">
+                    <label for = "umessage" class="control-label col-md-4">Message</label>
+                    <div class = "col-md-8">
+                        <textarea class = "form-control" name="umessage" id="umessage" placeholder="Enter your message here"></textarea>
+                    </div>
+                </div>
+
+                <div class = "form-group">
+                    <label class="control-label col-md-4"></label>
+                    <div class = "col-md-4">
+                        <button type="submit" class = "btn btn-primary">Send message</button>
+                   </div>
+                </div>
+                </fieldset>
             </form>
         </div>
     </section>
