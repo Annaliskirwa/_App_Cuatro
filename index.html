@@ -9,10 +9,15 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous"> 
 </head>
 <style>
+
+    body,html{
+        height: 100%;
+        width: 100%;
+    }
     #mainNav{
         background-color: black;
     }
-    header .htop{
+     .htop{
         position: relative;
         margin-top: 50px;
         width: 100%;
@@ -29,6 +34,12 @@
         padding: 20px;
         margin-top: 40px;
     }
+
+    @media(min-width:768px){
+        .htop{
+            min-height: 100%;
+        }
+    }
 </style>
 
 <body>
@@ -43,8 +54,8 @@
         </ul>
         </div>
     </nav>
-    <header>
-        <div class = "htop">
+    <header class = "htop">
+        <div >
             <h1>Your Company</h1>
             <hr>
             <p>
