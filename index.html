@@ -80,7 +80,7 @@
             <p>
                 massa tempor nec fduis at consectetur lorem donec massa sapien faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae auctor eu augue ut lectus arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum enim facilisis gravida neque convallis a cras semp
             </p>
-            <button type ="button" class = "btn btn-primary btn-lg">Best deals today</button>
+            <button type ="button" class = "btn btn-primary btn-lg" data-toggle="modal" data-target="#modal1">Best deals today</button>
         </div>
     </header>
     <section id = "about" class = "msection">
@@ -289,6 +289,19 @@ Felis bibendum ut tristique et egestas quis ipsum. Duis ut diam quam nulla portt
     <footer class = "text-xs-center footerA">
        (c) This is the copyright information
     </footer>
+
+    <!--Creaitng the modals (popups)-->
+    <div id = "modal1" class = "modal" role="dialog">
+        <div class = "modal-dialog" role="document">
+            <div class = "modal-content">
+                <div class = "modal-header">Best deal OFFER ever</div>
+                <div class = "modal-body">Dont miss out, buy now and save big</div>
+                <div class = "modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
